@@ -66,6 +66,24 @@ const projectTasks = [{
   parentTaskId: null,
   content: 'task 5',
   requirementId: '2'
+}, {
+  id: '6',
+  projectId: '1',
+  parentTaskId: '3',
+  content: 'task 6',
+  requirementId: '2'
+}, {
+  id: '7',
+  projectId: '1',
+  parentTaskId: '3',
+  content: 'task 7',
+  requirementId: '2'
+}, {
+  id: '8',
+  projectId: '1',
+  parentTaskId: '6',
+  content: 'task 8',
+  requirementId: '2'
 }];
 
 module.exports = {
